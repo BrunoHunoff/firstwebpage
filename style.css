@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100;
+    background: rgb(39,53,76);
+    background: linear-gradient(90deg, rgba(39,53,76,1) 0%, rgba(45,62,91,1) 28%, rgba(70,97,139,1) 100%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+    border-bottom: 0.4px solid #ffffff;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.cabecalho-img {
+    height: 80px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    margin-right: 40px;
+}
+
+.cabecalho-link {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.conteudo {
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.conteudo-principal-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.conteudo-principal-subtitulo {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.conteudo-principal-botao {
+    background-color: #ffffff;
+    width: 180px;
+    height: 40px;
+    border: #27354c;
+    border-radius: 7px;
+    font-family: 'Righteous', cursive;
+    font-weight: 800;
+    color: #46618b;
+    font-size: 18px;
+}
+
+.conteudo-principal-botao:hover {
+    background-color:#27354c;
+    border-style: groove;
+    border-color: #ffffff;
+    color: #ffffff;
+    cursor:pointer;
+}
+
+.conteudo-principal-img {
+    height: 500px;
+    display: flex;
+    margin-top: 80px;
+}
+
+.rodape {
+    border-top: 0.4px solid #ffffff;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.rodape-img {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
